@@ -16,6 +16,7 @@ import Footer from './component/Layouts/Footer/footer';
 // React Router Import
   // eslint-disable-next-line
 import { Switch, Route } from 'react-router-dom'; 
+import { BrowserRouter as Router } from 'react-router-dom';
   // Import Pages
 import Home from './component/Pages/Home/home';
 import Blog from './component/Pages/Blog/blog';
@@ -74,20 +75,22 @@ class App extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-        <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/blog" component={Blog} />
-          <Route path="/shop" component={Shop} />
-          <Route path="/details" component={Details} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/readytowear" component={ReadyToWear} />
-          <Route path="/sizeguide" component={SizeGuide} />
-          <Route path="/returnpolicy" component={ReturnPolicy} />
-          <Route path="/deliverypolicy" component={DeliveryPolicy} />
-          <Route path="/faqs" component={Faqs} />
-          <Route component={NotFoundPage} />
-        </Switch>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route path="/blog" component={Blog} />
+            <Route path="/shop" component={Shop} />
+            <Route path="/details" component={Details} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/readytowear" component={ReadyToWear} />
+            <Route path="/sizeguide" component={SizeGuide} />
+            <Route path="/returnpolicy" component={ReturnPolicy} />
+            <Route path="/deliverypolicy" component={DeliveryPolicy} />
+            <Route path="/faqs" component={Faqs} />
+            <Route component={NotFoundPage} />
+          </Switch>
+        </Router>
         <Footer />
       </div>  
     );
