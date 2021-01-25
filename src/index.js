@@ -6,13 +6,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 // import { InfoProvider } from './component/Context';
 import 'tachyons';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
   // <InfoProvider>
-    <Router>
-      <App />
-    </Router>,
+      <App />,
   // </InfoProvider>,
 document.getElementById('root'));
 
