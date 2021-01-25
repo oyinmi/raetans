@@ -31,9 +31,6 @@ import ReturnPolicy from './component/Pages/ReturnPolicy/returnPolicy';
 import DeliveryPolicy from './component/Pages/DeliveryPolicy/deliveryPolicy';
 import Faqs from './component/Pages/Faqs/faqs';
 
-  // For The Navbar
-     // eslint-disable-next-line
-import { Link } from 'react-router-dom';
 
 
 class App extends Component {
