@@ -1,0 +1,88 @@
+:root {
+  --mainDark:#0e0e0f;
+  --mainGrey: rgba(109, 109, 109);
+  --mainLightGrey: rgba(172, 172, 172);
+  --mainWhite: #fff;
+  --mainBlue: #007bff;
+}
+
+body {
+  color: var(--mainDark);
+  background: var(--mainWhite);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.8;
+}
+
+.nav-item {
+  font-weight: bold;
+  color: var(--mainDark);
+}
+
+header {
+  font-family: code;
+  font-size: 3rem;
+  line-height :3.0;
+  text-align: center;
+  padding-top: 3rem; 
+}
+
+.home {
+  min-height: calc(100vh);
+}
+
+.blog {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 3ch;
+  padding-bottom: 2rem;
+}
+
+.date {
+  text-align: center;
+  color: var(--mainLightGrey);
+}
+
+ .main {
+  text-align: center;
+} 
+
+.footer-bottom {
+  text-align: center;
+}
+
+h2 {
+  min-height: calc(100vh - 66px); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}  
+
+.content {
+  min-height: calc(100vh - 66px);
+  background-color: var(--mainWhite);
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 6rem;
+}
+
+.pol{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 3ch;
+  padding-bottom: 2rem;
+  
+}
+
+/* Contact Page */
+/* .well {
+  padding-top: 6rem;
+} */
+
+.contact {
+  padding-top: 6rem;
+  justify-content: center;
+}
