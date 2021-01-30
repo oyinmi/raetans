@@ -4,6 +4,8 @@ This is an ongoing react web application targeted at shopping online for fashion
 # Technologies Used
 React.js
 
+React Hooks
+
 Reactbootstrap
 
 Tachyons
