@@ -1,9 +1,9 @@
 :root {
   --mainDark:#0e0e0f;
-  --mainGrey: rgba(109, 109, 109);
+  --mainOrange: rgb(231, 120, 16);
   --mainLightGrey: rgba(172, 172, 172);
   --mainWhite: #fff;
-  --mainBlue: #007bff;
+  --mainYellow: #ffd900;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 header {
   font-family: code;
   font-size: 3rem;
-  line-height :3.0;
+  line-height: 3.0;
   text-align: center;
   padding-top: 3rem; 
 }
