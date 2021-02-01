@@ -11,9 +11,10 @@ const About = () => {
                     <img src={ aboutImage } alt='Ooops' />
                 </div>
 
-                <h4 className="about-content">
-                    hello
-                </h4>
+                <p className="about-content">
+                    Rae Tans is a multi-faceted global womenswear collection, aimed at designing
+                    and creating pieces for the modest woman.
+                </p>
 
             </div>
         );

@@ -78,7 +78,7 @@ header {
 
 .button:hover {
 	text-decoration: underline;
-	color: var(--mainDark var(--mainDark) var(--mainDark) var(--mainDark));
+	color: var(--mainDark);
 }
 
 
@@ -147,17 +147,6 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-
-.about-image {
-  width: 400px;
-  padding-left: 10%;
-  padding-top: 5%;
-}
-
-.about-content {
-  padding: 7%;
-}
-
 
 
 /* Contact Page */
